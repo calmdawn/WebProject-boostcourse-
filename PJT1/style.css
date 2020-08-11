@@ -1,0 +1,34 @@
+body {
+  background-color: green;
+}
+
+header,
+section,
+footer {
+  background-color: white;
+}
+
+header {
+}
+
+.group_btn {
+  position: relative;
+  left: 400px;
+}
+
+.group_btn > button {
+  width: 100px;
+  height: 30px;
+  font-size: 16px;
+  margin: 5px;
+}
+
+section {
+  height: 600px;
+}
+
+footer {
+  height: 50px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}

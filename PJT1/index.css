@@ -1,0 +1,23 @@
+section{
+  text-align: center;
+}
+
+
+.container_btn{
+  margin: 10px;
+}
+
+
+.section_btn{
+  background-color: orange;
+  color : white;
+  height: 100px;
+  width: 100px;
+  margin: 5px;
+}
+
+
+.main_image{
+  width: 800px;
+  height: 400px;
+}

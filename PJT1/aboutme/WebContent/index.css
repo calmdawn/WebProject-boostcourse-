@@ -12,6 +12,11 @@ section{
 
 }
 
+section > div> p{
+  margin: 5px;
+}
+
+
 
 .container_btn{
   margin: 10px;

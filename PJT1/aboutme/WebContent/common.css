@@ -8,6 +8,7 @@ footer, header, section {
 
 header {
   height: 100px;
+  min-width: 1200px;
 }
 
 header > nav {
@@ -47,10 +48,12 @@ section{
 
 footer{
   height: 100px;
-  min-width: 800px;
+  min-width: 1200px;
+  text-align: center;
 }
 
 .info_footer{
-  text-align: center;
-  padding-top: 5px;
+  display: inline-block;
+  height: 100px;
+  line-height: 25px;
 }

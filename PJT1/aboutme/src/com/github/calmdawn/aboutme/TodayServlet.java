@@ -15,7 +15,7 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * Servlet implementation class TodayServlet
  */
-@WebServlet("/TodayServlet")
+@WebServlet("/today")
 public class TodayServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
@@ -32,14 +32,14 @@ public class TodayServlet extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
 		LocalDateTime dateTime = LocalDateTime.now();
-		String nowTime = "ÇöÀç½Ã°£ : " + dateTime.format(DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm"));
+		String nowTime = "í˜„ì¬ì‹œê°„ : " + dateTime.format(DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm"));
 		
 		
 		response.setContentType("text/html;charset=utf-8");
 		PrintWriter out = response.getWriter();
 		
 	
-		out.print("<a href = http://localhost:8080/aboutme/index.html>¸ŞÀÎÈ­¸é</a>");
+		out.print("<a href = http://localhost:8080/aboutme/index.html>ë©”ì¸í™”ë©´</a>");
 	
 		
 		out.print("<h1>"+nowTime+"</h1>");

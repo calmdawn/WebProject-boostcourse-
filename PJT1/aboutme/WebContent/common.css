@@ -33,9 +33,13 @@ header > nav {
 
 }
 
+.list_nav > .nav_item > a{
+	display: block;
+}
+
+
 section{ 
   min-height: 700px;
-  /* height: auto; */
   min-width: 1000px;
   margin-top: 20px;
   margin-bottom: 20px;

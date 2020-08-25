@@ -1,40 +1,39 @@
-section{
-  position: relative;
+section {
+	position: relative;
 }
 
-.layout_section{
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-
+.layout_section {
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
 
-section > div> p{
-  margin: 5px;
+section>div>p {
+	margin: 5px;
 }
 
-
-
-.container_btn{
-  margin: 10px;
+.container_btn {
+	margin: 10px;
 }
 
-
-.section_btn{
-  font-size: 18px;
-  background-color: orange;
-  color : white;
-  height: 100px;
-  width: 100px;
-  margin: 5px;
-  border-style: none;
-  box-shadow: 5px 5px 3px gray;
+.section_btn {
+	font-size: 18px;
+	background-color: orange;
+	color: white;
+	height: 100px;
+	width: 100px;
+	margin: 5px;
+	border-style: none;
+	box-shadow: 5px 5px 3px gray;
 }
 
+.section_btn>a:hover {
+	color: white;
+}
 
-.main_image{
-  width: 800px;
-  height: 400px;
+.main_image {
+	width: 800px;
+	height: 400px;
 }

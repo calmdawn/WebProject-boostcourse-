@@ -1,5 +1,5 @@
 body {
-  background-color: gray;
+	background-color: gray;
 }
 
 footer, header, section {
@@ -7,57 +7,54 @@ footer, header, section {
 }
 
 header {
-  height: 100px;
-  min-width: 1200px;
+	height: 100px;
+	min-width: 1200px;
 }
 
-header > nav {
-  width: 95%;
-  min-width: 800px;
+header>nav {
+	width: 95%;
+	min-width: 800px;
 }
 
 .list_nav {
-  float: right;
+	float: right;
 }
 
-.list_nav > li {
-  list-style-type: none;
-  background-color: orange;
-  height: 50px;
-  width: 150px;
-  margin: 5px;
-  float: left;
-  line-height: 50px;
-  text-align: center;
-  box-shadow: 5px 5px 3px gray;
-
+.list_nav>li {
+	list-style-type: none;
+	background-color: orange;
+	height: 50px;
+	width: 150px;
+	margin: 5px;
+	float: left;
+	line-height: 50px;
+	text-align: center;
+	box-shadow: 5px 5px 3px gray;
 }
 
-.list_nav > .nav_item > a{
+.list_nav>.nav_item>a {
 	display: block;
 }
 
-
-section{ 
-  min-height: 700px;
-  min-width: 1000px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 100px;
-  padding-right: 100px;
-  
+section {
+	min-height: 700px;
+	min-width: 1000px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 100px;
+	padding-right: 100px;
 }
 
-footer{
-  height: 100px;
-  min-width: 1200px;
-  text-align: center;
+footer {
+	height: 100px;
+	min-width: 1200px;
+	text-align: center;
 }
 
-.info_footer{
-  display: inline-block;
-  height: 100px;
-  line-height: 25px;
+.info_footer {
+	display: inline-block;
+	height: 100px;
+	line-height: 25px;
 }

@@ -1,5 +1,5 @@
 body {
-	background-color: gray;
+	background-color: #5dd097;
 }
 
 footer, header, section {
@@ -22,7 +22,7 @@ header>nav {
 
 .list_nav>li {
 	list-style-type: none;
-	background-color: orange;
+	background-color: #79dfef;
 	height: 50px;
 	width: 150px;
 	margin: 5px;

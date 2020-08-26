@@ -37,9 +37,18 @@ public class TodayServlet extends HttpServlet {
 		response.setContentType("text/html;charset=utf-8");
 		PrintWriter out = response.getWriter();
 		
-		out.print("<a href = http://localhost:8080/aboutme/index.html>메인화면</a>");
+		out.print("<html>");
+		out.print("<head>");
+		out.print("<link rel=\"stylesheet\" href=\"css/time.css\">");
+		out.print("</head>");
+		out.print("<body>");
+		out.print("<h2><a href = index.html>메인화면</a></h2>");
 		out.print("<h1>"+nowTime+"</h1>");
-
+		out.print("</body>");
+		out.print("</html>");
+		
+		
+		
 		out.close();
 		
 		

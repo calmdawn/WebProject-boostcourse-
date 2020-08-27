@@ -1,0 +1,17 @@
+section{
+  position: relative;
+}
+
+.layout_section{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+
+.list_article{
+  padding-top: 20px;
+  width: 800px;
+}

@@ -29,9 +29,15 @@ section>div>p {
 	box-shadow: 5px 5px 3px gray;
 }
 
+.section_btn > a{
+	text-decoration: none;
+}
+
 .section_btn>a:hover {
 	color: white;
 }
+
+
 
 .main_image {
 	width: 800px;

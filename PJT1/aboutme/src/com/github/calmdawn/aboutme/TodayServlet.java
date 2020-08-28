@@ -32,7 +32,7 @@ public class TodayServlet extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
 		LocalDateTime dateTime = LocalDateTime.now();
-		String nowTime = "¸ÞÀÎÈ­¸é" + dateTime.format(DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm"));
+		String nowTime = "ï¿½ï¿½ï¿½ï¿½È­ï¿½ï¿½" + dateTime.format(DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm"));
 		
 		response.setContentType("text/html;charset=utf-8");
 		PrintWriter out = response.getWriter();
@@ -42,7 +42,7 @@ public class TodayServlet extends HttpServlet {
 		out.print("<link rel=\"stylesheet\" href=\"css/time.css\">");
 		out.print("</head>");
 		out.print("<body>");
-		out.print("<h2><a href = index.html>ÇöÀç½Ã°£</a></h2>");
+		out.print("<h2><a href = index.html>ï¿½ï¿½ï¿½ï¿½Ã°ï¿½</a></h2>");
 		out.print("<h1>"+nowTime+"</h1>");
 		out.print("</body>");
 		out.print("</html>");
